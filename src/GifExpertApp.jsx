@@ -16,8 +16,8 @@ export const GifExpertApp = () => {
 
   return (
     <>
-      <h1>Gift Expert App</h1>
-
+      <h1>Gift Expert App </h1>
+      <p>React 18 + vite</p>
       
       <AddCategory  onNewCategory={ onAddCategory } />
     
