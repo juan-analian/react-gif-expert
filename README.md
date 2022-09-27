@@ -1,6 +1,6 @@
 # React gif app
 
-Este es un repo usado para el curso de React de cero a experto (Hooks y MERN) - React 18
+Este es un repo usado para el curso de React de cero a experto (Hooks y MERN) - React 18 y Vite
 
 
 [Udemy Course: React from 0 to expert - with hooks and MERN stack](https://www.udemy.com/share/103dum3@FOQqsxLCvJTMTPT48d9FSEaHujUWlVU-k2za2Zp5KRw76iqkoFrD-PWUkLHlGR_Y/)
