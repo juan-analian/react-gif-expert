@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import PropTypes from "prop-types";
+
 
 export const AddCategory = ({onNewCategory}) => {
 
@@ -22,16 +24,17 @@ export const AddCategory = ({onNewCategory}) => {
     }
 
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} name="formulario">
         <input
             type="text"
             placeholder='buscar gif...'
             value={inputValue}
             onChange={onInputChange}
         />
-        
     </form>
-
-
   )
+}
+
+AddCategory.propTypes = {
+    onNewCategory: PropTypes.func.isRequired,
 }
